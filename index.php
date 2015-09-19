@@ -47,7 +47,7 @@
                 <div class="demo-content bg-alt">
                     <form method="get" action="index.php">
                         <fieldset class="form-group required">
-                            <legend>Tu me verra plus peandant une année entiere</legend>
+                            <legend>Tu me verra plus pendant une année entière</legend>
                             <label for="q_1_oui" class="radio-inline">
                                 <input type="radio" name="question1" id="q_1_oui" value="oui" required <?php if(!empty($_GET[ 'question1']) =='oui' ){ echo 'checked="checked"';}?> >oui
                             </label>
@@ -74,7 +74,7 @@
                             </label>
                         </fieldset>
                         <fieldset class="form-group required">
-                            <legend>Tu pourras acheter la BMW de tes reve</legend>
+                            <legend>Tu pourras acheter la BMW de tes rêves</legend>
                             <label for="q_4_oui" class="radio-inline">
                                 <input type="radio" name="question4" id="q_4_oui" value="oui" required <?php if( !empty($_GET[ 'question4'])=='oui' ){ echo 'checked="checked"';} ?> >oui
                             </label>
