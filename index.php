@@ -102,7 +102,7 @@
                         </fieldset>
 
 
-                        <button type="submit" class="btn btn-primary">Prete ta voiture</button>
+                        <button type="submit" class="btn btn-primary">Raboule ta caisse</button>
 
                     </form>
 
@@ -113,11 +113,11 @@
       </div>
       <div class='panel-body'>
       
-       <figure>
+     
        <img src='ouipapa.jpg' alt='voiture de papa'>
            
            
-       </figure>
+     
         
       </div>
     </div>
@@ -139,7 +139,7 @@
       </div>
       <div class='panel-body'>
       
-       <img src='nonpapa.jpg' alt='voiture de papa'>
+        <img src='ouipapa.jpg' alt='voiture de papa'>
            
            
        </figure>
@@ -149,7 +149,7 @@
 } 
     function reponse_function($question1,$question2,$question3,$question4,$question5,$question6){
      if ( ($question1=='oui' ) && ($question2=='oui' ) ){ $reponse="oui" ; } 
-     else if ( ($question2=='oui' ) && ($question3=='oui' ) ){ $reponse="peut_etre" ; }
+     else if ( ($question1=='oui' ) && ($question3=='oui' ) ){ $reponse="peut_etre" ; }
       else  { $reponse="non" ; }
 
         message_reponse($reponse); 
