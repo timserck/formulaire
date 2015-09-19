@@ -133,7 +133,7 @@
       </div>
     </div>
     "; } else { echo "
-          <div  style='display:block' class='panel .panel-warning'>
+          <div  style='display:block' class='panel panel-warning'>
       <div class='panel-heading'>
         <h3 class='panel-title'>peut-etre : On verra fiston</h3>
       </div>
