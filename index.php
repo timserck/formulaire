@@ -8,27 +8,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  -->
-    <style type="text/css">
-        /* Fix alignment issue of label on extra small devices in Bootstrap 3.2 */
-        
-        .form-group.required legend:after {
-            content: " *";
-            color: red;
-        }
-        form {
-            margin-bottom: 20px;
-        }
- 
-        footer{
-            background: #eee;
+    <link rel="stylesheet" href="css/style.css">
 
-        }
-        footer p {
-            text-align: center;
-            margin: 0;
-        }
 
-    </style>
+
+
 </head>
 
 <body>
@@ -113,7 +97,7 @@
       <div class='panel-body'>
       
      
-       <img src='ouipapa.jpg' alt='voiture de papa'>
+       <img src='img/ouipapa.jpg' alt='voiture de papa'>
            
            
      
@@ -127,7 +111,7 @@
       </div>
       <div class='panel-body'>
 
-       <img src='nonpapa.jpg' alt='voiture de papa'>
+       <img src='img/nonpapa.jpg' alt='voiture de papa'>
 
       </div>
     </div>
@@ -138,7 +122,7 @@
       </div>
       <div class='panel-body'>
       
-        <img src='ouipapa.jpg' alt='voiture de papa'>
+        <img src='img/ouipapa.jpg' alt='voiture de papa'>
            
            
        </figure>
