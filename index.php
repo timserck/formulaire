@@ -27,6 +27,7 @@
         }
         footer p {
             text-align: center;
+            margin: 0;
         }
 
     </style>
@@ -49,55 +50,55 @@
                         <fieldset class="form-group required">
                             <legend>Tu me verra plus pendant une année entière</legend>
                             <label for="q_1_oui" class="radio-inline">
-                                <input type="radio" name="question1" id="q_1_oui" value="oui" required <?php if(!empty($_GET[ 'question1']) =='oui' ){ echo 'checked="checked"';}?> >oui
+                                <input type="radio" name="question1" id="q_1_oui" value="oui" required <?php if( (!empty($_GET[ 'question1'])  && ($_GET[ 'question1']) =='oui') ){ echo 'checked="checked"';}?> >oui
                             </label>
                             <label for="q_1_non" class="radio-inline">
-                                <input type="radio" name="question1" id="q_1_non" value="non" <?php if(!empty($_GET[ 'question1'])=='non' ){ echo 'checked="checked"';} ?>>non
+                                <input type="radio" name="question1" id="q_1_non" value="non" <?php if(  (!empty($_GET[ 'question1'])  && ($_GET[ 'question1']) =='non') ){ echo 'checked="checked"';} ?>>non
                             </label>
                         </fieldset>
                         <fieldset class="form-group required">
                             <legend>Je te ramenerais plein de souvenirs</legend>
                             <label for="q_2_oui" class="radio-inline">
-                                <input type="radio" name="question2" id="q_2_oui" value="oui" required <?php if(!empty( $_GET[ 'question2'])=='oui' ){ echo 'checked="checked"';} ?> >oui
+                                <input type="radio" name="question2" id="q_2_oui" value="oui" required <?php if((!empty($_GET[ 'question2'])  && ($_GET[ 'question2']) =='oui') ){ echo 'checked="checked"';} ?> >oui
                             </label>
                             <label for="q_2_non" class="radio-inline">
-                                <input type="radio" name="question2" id="q_2_non" value="non" <?php if( !empty($_GET[ 'question2'])=='non' ){ echo 'checked="checked"';} ?>>non
+                                <input type="radio" name="question2" id="q_2_non" value="non" <?php if( (!empty($_GET[ 'question2'])  && ($_GET[ 'question2']) =='non') ){ echo 'checked="checked"';} ?>>non
                             </label>
                         </fieldset>
                         <fieldset class="form-group required">
                             <legend>La voiture est plus toute jeune</legend>
                             <label for="q_3_oui" class="radio-inline">
-                                <input type="radio" name="question3" id="q_3_oui" value="oui" required <?php if(!empty($_GET[ 'question3'])=='oui' ){ echo 'checked="checked"';} ?> >oui
+                                <input type="radio" name="question3" id="q_3_oui" value="oui" required <?php if((!empty($_GET[ 'question3'])  && ($_GET[ 'question3']) =='oui') ){ echo 'checked="checked"';} ?> >oui
                             </label>
                             <label for="q_3_non" class="radio-inline">
-                                <input type="radio" name="question3" id="q_3_non" value="non" <?php if( !empty($_GET[ 'question3'])=='non' ){ echo 'checked="checked"';} ?>>non
+                                <input type="radio" name="question3" id="q_3_non" value="non" <?php if( (!empty($_GET[ 'question3'])  && ($_GET[ 'question3']) =='non') ){ echo 'checked="checked"';} ?>>non
                             </label>
                         </fieldset>
                         <fieldset class="form-group required">
                             <legend>Tu pourras acheter la BMW de tes rêves</legend>
                             <label for="q_4_oui" class="radio-inline">
-                                <input type="radio" name="question4" id="q_4_oui" value="oui" required <?php if( !empty($_GET[ 'question4'])=='oui' ){ echo 'checked="checked"';} ?> >oui
+                                <input type="radio" name="question4" id="q_4_oui" value="oui" required <?php if( (!empty($_GET[ 'question4'])  && ($_GET[ 'question4']) =='oui') ){ echo 'checked="checked"';} ?> >oui
                             </label>
                             <label for="q_4_non" class="radio-inline">
-                                <input type="radio" name="question4" id="q_4_non" value="non" <?php if(!empty($_GET[ 'question4'])=='non' ){ echo 'checked="checked"';} ?>>non
+                                <input type="radio" name="question4" id="q_4_non" value="non" <?php if((!empty($_GET[ 'question4'])  && ($_GET[ 'question4']) =='non')){ echo 'checked="checked"';} ?>>non
                             </label>
                         </fieldset>
                         <fieldset class="form-group required">
                             <legend>Je t'enverrais une carte postale</legend>
                             <label for="q_5_oui" class="radio-inline">
-                                <input type="radio" name="question5" id="q_5_oui" value="oui" required <?php if(!empty($_GET[ 'question5'])=='oui' ){ echo 'checked="checked"';} ?> >oui
+                                <input type="radio" name="question5" id="q_5_oui" value="oui" required <?php if((!empty($_GET[ 'question5'])  && ($_GET[ 'question5']) =='oui')){ echo 'checked="checked"';} ?> >oui
                             </label>
                             <label for="q_5_non" class="radio-inline">
-                                <input type="radio" name="question5" id="q_5_non" value="non" <?php if(!empty($_GET[ 'question5'])=='non' ){ echo 'checked="checked"';} ?>>non
+                                <input type="radio" name="question5" id="q_5_non" value="non" <?php if((!empty($_GET[ 'question5'])  && ($_GET[ 'question5']) =='non')){ echo 'checked="checked"';} ?>>non
                             </label>
                         </fieldset>
                         <fieldset class="form-group required">
                             <legend>Tu pourra utiliser ma chambre comme salle de musculation</legend>
                             <label for="q_6_oui" class="radio-inline">
-                                <input type="radio" name="question6" id="q_6_oui" value="oui" required <?php if(!empty($_GET[ 'question6'])=='oui' ){ echo 'checked="checked"';} ?> >oui
+                                <input type="radio" name="question6" id="q_6_oui" value="oui" required <?php if((!empty($_GET[ 'question6'])  && ($_GET[ 'question6']) =='oui')){ echo 'checked="checked"';} ?> >oui
                             </label>
                             <label for="q_6_non" class="radio-inline">
-                                <input type="radio" name="question6" id="q_6_non" value="non" <?php if( !empty($_GET[ 'question6'])=='non' ){ echo 'checked="checked"';} ?>>non
+                                <input type="radio" name="question6" id="q_6_non" value="non" <?php if( (!empty($_GET[ 'question6'])  && ($_GET[ 'question6']) =='oui') ){ echo 'checked="checked"';} ?>>non
                             </label>
                         </fieldset>
 
@@ -157,10 +158,10 @@
 
        if (!empty($_GET)){ echo reponse_function($_GET[ 'question1'],$_GET[ 'question2'],$_GET[ 'question3'],$_GET[ 'question4'],$_GET[ 'question5'],$_GET[ 'question6']); } ?>
 
-          <footer>
-            <p> &copy Timothée Serck -- B2G2.1</p>
+          <footer class="footer">
+            <p class="text-muted"> &copy Timothée Serck -- B2G2.1</p>
         </footer>
-                </div>
+  </div>
                 <div class="col-md-2">
 
                 </div>
