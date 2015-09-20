@@ -18,9 +18,7 @@
         form {
             margin-bottom: 20px;
         }
-        .panel {
-            display: none;
-        }
+ 
         footer{
             background: #eee;
 
@@ -48,7 +46,7 @@
                 <div class="demo-content bg-alt">
                     <form method="get" action="index.php">
                         <fieldset class="form-group required">
-                            <legend>Tu me verra plus pendant une année entière</legend>
+                            <legend>Tu me verras plus pendant une année entière</legend>
                             <label for="q_1_oui" class="radio-inline">
                                 <input type="radio" name="question1" id="q_1_oui" value="oui" required <?php if( (!empty($_GET[ 'question1'])  && ($_GET[ 'question1']) =='oui') ){ echo 'checked="checked"';}?> >oui
                             </label>
@@ -93,12 +91,12 @@
                             </label>
                         </fieldset>
                         <fieldset class="form-group required">
-                            <legend>Tu pourra utiliser ma chambre comme salle de musculation</legend>
+                            <legend>Tu pourras utiliser ma chambre comme salle de musculation</legend>
                             <label for="q_6_oui" class="radio-inline">
                                 <input type="radio" name="question6" id="q_6_oui" value="oui" required <?php if((!empty($_GET[ 'question6'])  && ($_GET[ 'question6']) =='oui')){ echo 'checked="checked"';} ?> >oui
                             </label>
                             <label for="q_6_non" class="radio-inline">
-                                <input type="radio" name="question6" id="q_6_non" value="non" <?php if( (!empty($_GET[ 'question6'])  && ($_GET[ 'question6']) =='oui') ){ echo 'checked="checked"';} ?>>non
+                                <input type="radio" name="question6" id="q_6_non" value="non" <?php if( (!empty($_GET[ 'question6'])  && ($_GET[ 'question6']) =='non') ){ echo 'checked="checked"';} ?>>non
                             </label>
                         </fieldset>
 
